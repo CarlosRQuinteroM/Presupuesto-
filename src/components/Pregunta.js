@@ -4,10 +4,12 @@ const Pregunta = () => {
 
      // definir el state 
      const [cantidad, guardarCantidad] = useState(0)
+     const [error, guardarError] = useState(false);
 
      //Funcion que lee el presupuesto
      const definirPresupuesto = e => {
          guardarCantidad(parseInt(e.target.value, 10 ))
+    
      }
 
      
@@ -16,7 +18,10 @@ const Pregunta = () => {
            e.preventDefault();
          
           // Validar 
-   
+          if(cantidad < 1  ||  isNaN(cantidad)) {
+              guardarError(true);
+              return;
+          }
 
           // si se pasa la validacion 
 
@@ -26,8 +31,10 @@ const Pregunta = () => {
 
     return ( 
       <Fragment>
-          <h2> Coloca tu Presupuesto</h2>
-
+          <h2> Coloca tu Presupuesto</h2>  
+         
+         {erro ?    : null }
+  
           <form
              onSubmit={agregarPresupuesto}
           >
