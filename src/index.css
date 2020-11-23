@@ -2,9 +2,9 @@
   margin-bottom: 0!important;
 }
 body {
-  background:rgb(97,153,82); /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #346d9e, #000428);  
-  background: linear-gradient(to right, #5d9258, #9db8a9, #155724); 
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  
+  background: linear-gradient(to right, #68b960, #4883c7,#68b960); 
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -16,7 +16,7 @@ header {
   padding:20px;
 }
 .contenido-principal {
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(223, 223, 223);
   padding: 30px;
   border-radius: 20px;
 }
@@ -33,7 +33,7 @@ header {
 h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  color: rgb(102, 108, 168);
+  color: rgb(247, 247, 247);
   text-align: center;
   font-size: 4.8rem!important;
 }
