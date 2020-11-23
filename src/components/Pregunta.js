@@ -26,7 +26,7 @@ const Pregunta = () => {
           }
 
           // si se pasa la validacion 
-            guardarError(false);
+            guardarError(false); 
 
        }
        
