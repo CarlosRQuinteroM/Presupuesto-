@@ -37,7 +37,7 @@ const Pregunta = ({guardarPresupuesto , guardarRestante,actualizarPregunta}) => 
 
     return ( 
       <Fragment>
-          <h2> Coloca tu Presupuesto</h2>  
+          <h2>Presupuesto</h2>  
          
          { error ? <Error mensaje="El Presupuesto es Incorrecto" />  : null }
   
